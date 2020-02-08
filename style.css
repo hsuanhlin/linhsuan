@@ -48,7 +48,9 @@ footer{
 
 h1{
 	text-transform: none;
-font-family: 'Chivo', sans-serif;
+font-family: brandon-grotesque, sans-serif;
+font-style: normal;
+font-weight: 100;
 	font-size: 65px;
 	float: left;
 	margin-left: 50px;

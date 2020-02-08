@@ -45,6 +45,9 @@ footer{
 }
 
 
+.main-arti li a:active {
+  background-color: yellow;
+} 
 
 
 h1{

@@ -27,7 +27,7 @@ footer{
    font-family: 'MetropolisRegular'; 
    font-weight: normal; 
    font-style: normal; 
-	font-size: 18px;
+	font-size: 30px;
 }
 
 
@@ -37,7 +37,6 @@ footer{
 .main-arti{
 	float: left;
 	list-style: none;
-
 	margin-top: 40px;
 }
 .main-arti li{
@@ -55,12 +54,5 @@ font-family: 'Playfair Display', serif;
 	margin-left: 50px;
 	margin-right: 200px;
 }
-h2{
-	text-transform: none;
-   	font-family: 'MetropolisRegular'; 
-  	font-weight: normal; 
-  	font-style: normal; 
-	font-size: 15px;
-	margin-left: 50px;
-}
+
 

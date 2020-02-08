@@ -7,7 +7,7 @@ body{
 	background: white;
 	height: 100vh;
 	color: black;
-text-decoration: none;
+	text-decoration: none;
 	font-size: 35px;
 	 line-height: 1.25;
 }
@@ -49,6 +49,7 @@ footer{
 h1{
 	text-transform: none;
 font-family: 'Playfair Display', serif;
+font-style: regular;
 	font-size: 65px;
 	float: left;
 	margin-left: 50px;

@@ -16,7 +16,7 @@
 a {
     text-decoration:none; color: darkgrey;
 }
-</style>Amber Hsuan Lin</h1>
+</style>Amber Hsuann Lin</h1>
 
 
     </body>

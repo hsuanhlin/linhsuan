@@ -48,14 +48,17 @@ footer{
 
 
 h1{
-	text-transform: none;
-font-family: courier-std, monospace;
-font-style: normal;
-font-weight: 400;
-	font-size: 58px;
 	float: left;
-	margin-left: 50px;
-	margin-right: 200px;
+	list-style: none;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	color: darkgrey;
+	text-decoration: none;
+	padding: 2px 50px;
+   font-family: 'MetropolisRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+	font-size: 22px;
 }
 
 

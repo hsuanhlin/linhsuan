@@ -1,0 +1,30 @@
+
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/metropolis" type="text/css"/>
+
+<html>
+    <head>
+        <title>linhsuan</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png"
+    </head>
+
+
+
+    <body>
+	<ul class="main-nav">
+	<h1><style>
+a {
+    text-decoration:none; color: darkgrey;
+}
+</style>Amber Hsuan Lin</h1>
+
+
+    </body>
+
+
+
+
+    <footer>            
+    </footer>
+    
+</html>

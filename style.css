@@ -21,28 +21,7 @@ footer{
 	margin-bottom: 60px;
 }
 
-.main-nav li a{
-	color: darkgrey;
-	text-decoration: none;
-	padding: 2px 50px;
-   font-family: 'MetropolisRegular'; 
-   font-weight: normal; 
-   font-style: normal; 
-	font-size: 15px;
-}
-
-
-
-
-
-.main-arti{
-	float: left;
-	list-style: none;
-	margin-top: 40px;
-}
-.main-arti li{
-	display: inline-block;
-}
+h3 { font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 15px; }
 
 
 

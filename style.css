@@ -2,12 +2,23 @@
 {
 	margin: 0;
 	padding: 0;
+
+h3 { font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 15px; margin-top: 30px; margin-left: 60px;}
+}
+body{
+	background: white;
 }
 footer{
 	 line-height: 0.7;
 }
+.main-nav{
+	float: left;
+	list-style: none;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
 
-h3 { font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 15px; }
+
 
 
 

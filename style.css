@@ -1,7 +1,7 @@
 html, body{
-        padding-top: 4em;
+        padding-top: 0.2em;
         text-alignment: left;
-        width: 80%;
+        width: 95%;
         margin: 0 auto;
 }
 
@@ -9,12 +9,19 @@ html, body{
         font-family: 'lausanne'
         src: url(fonts/Lausanne-500.ttf)
         font-style: normal;
-        font-weight:100;
+        font-weight:200;
+}
+
+@font-face {
+        font-family: 'lausanne'
+        src: url(fonts/Lausanne-500Italic.ttf)
+        font-style: normal;
+        font-weight:200;
 }
 
 p{
         font-family: lausanne;
-        font-weight: 100;
+        font-weight: 200;
 }
 
 

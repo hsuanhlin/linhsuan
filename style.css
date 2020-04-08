@@ -1,51 +1,20 @@
-*
-{
-	margin: 0;
-	padding: 0;
-}
-body{
-	background: white;
-        float: left;
-        padding: 2px 50px;
-	height: 100vh;
-	color: darkgrey;
-	font-size: 22px;
-        line-height: 1.25;
-        font-family: 'Open Sans', sans-serif;
-}
-footer{
-	 line-height: 0.7;
-}
-.main-nav{
-	float: left;
-	list-style: none;
-	margin-top: 30px;
-	margin-bottom: 60px;
+html, body{
+        padding-top: 4em;
+        text-alignment: left;
+        width: 80%;
+        margin: 0 auto;
 }
 
-.main-nav li a{
-	color: darkgrey;
-	text-decoration: none;
-	padding: 2px 50px;
-   font-family: 'MetropolisRegular'; 
-   font-weight: normal; 
-   font-style: normal; 
-	font-size: 15px;
+@font-face {
+        font-family: 'lausanne'
+        src: url(fonts/Lausanne-500.ttf)
+        font-style: normal;
+        font-weight:100;
 }
 
-
-
-
-
-.main-arti{
-	float: left;
-	list-style: none;
-	margin-top: 40px;
+p{
+        font-family: lausanne;
+        font-weight: 100;
 }
-.main-arti li{
-	display: inline-block;
-}
-
-
 
 

@@ -25,13 +25,13 @@ body{
 .title{
     grid-area: title;
     justify-self: start;
-    padding: 10px;
+    padding: 20px;
 }
 
 .info{
     grid-area: info;
     justify-self: start;
-    padding: 10px;
+    padding: 20px;
 }
 
 .sidebar{
@@ -48,7 +48,7 @@ body{
     grid-area: footer;
     justify-self: start;
     align-self:  end;
-    padding: 10px;
+    padding: 20px;
 }
 
 .grid div:nth-child(even){

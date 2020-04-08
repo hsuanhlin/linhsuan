@@ -3,7 +3,6 @@ html, body{
         text-alignment: left;
         width: 95%;
         margin: 0 auto;
-}
 
 @font-face {
         font-family: 'lausanne'
@@ -23,5 +22,8 @@ p{
         font-family: lausanne;
         font-weight: 200;
 }
+}
+
+
 
 

@@ -5,21 +5,15 @@ html, body{
         margin: 0 auto;
 
 @font-face {
-        font-family: 'lausanne'
+        font-family: 'Lausanne-500'
         src: url(fonts/Lausanne-500.ttf)
         font-style: normal;
         font-weight:200;
 }
 
-@font-face {
-        font-family: 'lausanne'
-        src: url(fonts/Lausanne-500Italic.ttf)
-        font-style: normal;
-        font-weight:200;
-}
 
 p{
-        font-family: lausanne;
+        font-family: Lausanne-500;
         font-weight: 200;
 }
 }

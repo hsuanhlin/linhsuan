@@ -1,22 +1,88 @@
-html, body{
-        padding-top: 0.2em;
-        text-alignment: left;
-        width: 95%;
-        margin: 0 auto;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+height: 100%;
+background: black;
+}
+
+body{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 30px 1fr;
+    align-items: top;
+    grid-template-areas: 
+    "title title"
+    "info info"
+    "sidebar content"
+    "footer footer";
+    grid-gap: 5px;
+}
+
+
+.title{
+    grid-area: title;
+    justify-self: start;
+    padding: 10px;
+}
+
+.info{
+    grid-area: info;
+    justify-self: start;
+    padding: 10px;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    justify-self: start;
+}
+
+.content{
+    grid-area: content;
+    justify-self: end;
+}
+
+.footer{
+    grid-area: footer;
+    justify-self: start;
+    align-self:  end;
+    padding: 10px;
+}
+
+.grid div:nth-child(even){
+    background-color: black;
+}
+
+.grid div:nth-child(odd){
+    background-color: black;
+}
+
+@media screen and (min-width: 736px){
+    body{
+        display: grid;
+        grid-template-columns: 3% 30% 64% 3%;
+        grid-template-rows: 30px;
+        grid-template-areas: 
+        ". title info ."
+        ". sidebar content ."
+        ". footer footer .";
+}
+}
 
 @font-face {
-        font-family: 'Lausanne-500'
-        src: url(fonts/Lausanne-500.ttf)
-        font-style: normal;
-        font-weight:200;
+    src: url(fonts/OpenSans-Regular.ttf)
+    font-family: 'Open Sans', sans-serif;
 }
 
+.paragraph{
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
 
-p{
-        font-family: Lausanne-500;
-        font-weight: 200;
-}
-}
 
 
 

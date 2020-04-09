@@ -116,25 +116,30 @@ body{
     center top/cover;
 }
 .slide:nth-child(2) {
-  background: url('img/1.mov') no-repeat
+  background: url('img/1.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(3) {
-  background: url('img/4.jpg') no-repeat
+  background: url('img/1.mov') no-repeat
     center top/cover;
 }
 .slide:nth-child(4) {
-  background: url('img/5.jpg') no-repeat
+  background: url('img/4.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(5) {
-  background: url('img/3.jpg') no-repeat
+  background: url('img/5.jpg') no-repeat
     center top/cover;
 } 
 .slide:nth-child(6)  {
-  background: url('https://source.unsplash.com/ggZuL3BTSJU/1600x900') no-repeat
+  background: url('img/2.jpg') no-repeat
     center center/cover;
 }
+.slide:nth-child(7)  {
+  background: url('img/3.jpg') no-repeat
+    center center/cover;
+}
+
 
 
 .title{

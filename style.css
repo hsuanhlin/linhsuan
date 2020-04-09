@@ -170,7 +170,7 @@ body{
 @media screen and (min-width: 736px){
     body{
         display: grid;
-        grid-template-columns: 2% 30% 66% 2%;
+        grid-template-columns: 2% 24% 72% 2%;
         grid-template-rows: 30px 1fr;
         align-items: top;
         grid-template-areas: 

@@ -31,31 +31,36 @@ body{
 
 .gridd{
   display: grid;
-  grid-template-columns: 40px 300px 1fr 40px;
+  grid-template-columns: 40px 300px 1100px auto;
   position: absolute;
   z-index: 99999;
   grid-template-areas:
-  ". i n ."
-  ". i f ."
-  ". o s ."
-  ". o s ."
-  ;
+  ". a d ."
+  ". b e ."
+  ". c f ."
+  ". c g ."
 }
 
-.i{
-grid-area: i;
+.a{
+grid-area: a;
 }
-.n{
-grid-area: n;
+.b{
+grid-area: b;
+}
+.c{
+grid-area: c;
+}
+.d{
+grid-area: d;
+}
+.e{
+grid-area: e;
 }
 .f{
 grid-area: f;
 }
-.o{
-grid-area: o;
-}
-.s{
-grid-area: s;
+.g{
+grid-area: g;
 }
 
 .gridd div nth-child(even){
@@ -212,6 +217,10 @@ grid-area: s;
   line-height: 26px;
   font-family: 'Open Sans', sans-serif;
   color: white;
+	float: left;
+	margin-left: 0;
+	margin-right: 50%;
+	margin-bottom: 20px;
 }
 
 .clock{

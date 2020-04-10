@@ -24,6 +24,46 @@ body{
 
 .info{
   position: absolute;
+  padding-top: 150px;
+  padding-right: 40px;
+  position: absolute;
+}
+
+.gridd{
+  display: grid;
+  grid-template-columns: 40px 300px 1fr 40px;
+  position: absolute;
+  z-index: 99999;
+  grid-template-areas:
+  ". i n ."
+  ". i f ."
+  ". o s ."
+  ". o s ."
+  ;
+}
+
+.i{
+grid-area: i;
+}
+.n{
+grid-area: n;
+}
+.f{
+grid-area: f;
+}
+.o{
+grid-area: o;
+}
+.s{
+grid-area: s;
+}
+
+.gridd div nth-child(even){
+  background-color: red;
+}
+
+.gridd div nth-child(odd){
+  background-color: green;
 }
 
 .slider {
@@ -90,7 +130,7 @@ body{
   height: 30px;
   float: left;
   box-shadow: -3px 3px 0 rgba(255,255,255,1);
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   background-color: transparent;
   color: #fff;
   cursor: pointer;
@@ -216,3 +256,4 @@ ul li a{
 ul li a:hover{
   color: #505050;
 }
+

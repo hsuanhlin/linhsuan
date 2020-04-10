@@ -22,11 +22,17 @@ body{
   "footer footer";
 }
 
+.info{
+  position: absolute;
+}
+
 .slider {
   position: relative;
+  z-index：-99999;
   overflow: hidden;
   height: 100vh;
   width: 100vw;
+  z-index：-1;
 }
 
 .slide {
@@ -66,24 +72,24 @@ body{
 }
 
 .buttons button#next {
-transform: rotate(225deg);
+  transform: rotate(225deg);
   position: absolute;
   top: 50%;
   right: 50px;
 }
 
 .buttons button#prev {
-transform: rotate(45deg);
+  transform: rotate(45deg);
   position: absolute;
   top: 50%;
   left: 50px;
 }
 
 .buttons button {
-width: 30px;
-height: 30px;
-float: left;
-box-shadow: -3px 3px 0 rgba(255,255,255,1);
+  width: 30px;
+  height: 30px;
+  float: left;
+  box-shadow: -3px 3px 0 rgba(255,255,255,1);
   border: 2px solid #fff;
   background-color: transparent;
   color: #fff;
@@ -93,11 +99,8 @@ box-shadow: -3px 3px 0 rgba(255,255,255,1);
 }
 
 .buttons button:hover {
-box-shadow: -3px 3px 0 rgba(80,80,80,1);
+  box-shadow: -3px 3px 0 rgba(80,80,80,1);
 }
-
-
-
 
 @media (max-width: 500px) {
   .slide .content {
@@ -182,7 +185,7 @@ box-shadow: -3px 3px 0 rgba(80,80,80,1);
   position: absolute;
   margin: auto auto auto auto;
   width: 100%;
-  z-index: 99996;
+  z-index: 99998;
 }
 
 nav{

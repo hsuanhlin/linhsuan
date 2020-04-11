@@ -228,16 +228,16 @@ ul li a:hover{
 .left {
   position: absolute;
   background-color:transparent;
-  padding-left:40px;
+  padding-left:340px;
   padding-right:40px;
-  padding-top:120px;
+  padding-top:100px;
   padding-bottom:80px;
   float:left;
-  width:620px; /* The width is 20%, by default */
+  width:920px; /* The width is 20%, by default */
     z-index: 99997;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 920px) {
   .left {
     width:100%; /* The width is 100%, when the viewport is 800px or smaller */
     padding-left:20px;

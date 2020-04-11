@@ -233,11 +233,11 @@ ul li a:hover{
   padding-top:120px;
   padding-bottom:80px;
   float:left;
-  width:55%; /* The width is 20%, by default */
+  width:620px; /* The width is 20%, by default */
     z-index: 99997;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 650px) {
   .left {
     width:100%; /* The width is 100%, when the viewport is 800px or smaller */
     padding-left:20px;

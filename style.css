@@ -116,10 +116,10 @@ body{
     transform: translateY(-300px);
   }
   .buttons button#next{
-display: none;
+  display: none;
   }
   .buttons button#prev{
-display: none;
+  display: none;
   }
 
 }
@@ -168,8 +168,9 @@ display: none;
     justify-self: start;
     align-self:  end;
     padding-left: 40px;
-    padding-bottom: 45px;
+    padding-bottom: 20px;
     z-index: 99998;
+    padding-bottom: 45px;
 }
 
 @font-face {
@@ -181,7 +182,7 @@ display: none;
   font-size: 19px;
   line-height: 26px;
   font-family: 'Open Sans', sans-serif;
-  color: white;
+  color: black;
 	float: left;
 	margin-left: 0;
 	margin-right: 50%;
@@ -244,14 +245,13 @@ ul li a:hover{
   float:left;
   width:895px; /* The width is 20%, by default */
   z-index: 99997;
-  position: fixed;
 }
 
 .top {
   position: absolute;
   background-color:transparent;
   padding-left:25%;
-  padding-top:29px;
+  padding-top:26.5px;
   float:left;
   z-index: 99998;
   position: fixed;
@@ -294,11 +294,20 @@ p1{
   color: #c8c8c8;
 }
 
+p2{
+  font-size: 21px;
+  line-height: 43px;
+  font-family: "Times New Roman", Times, serif;
+  color: #505050;
+  font-style: oblique; 
+  font-variant: normal;
+}
+
 h1{
   font-size: 35px;
   line-height: 43px;
   font-family: "Times New Roman", Times, serif;
-  color: white;
+  color: #c8c8c8;
 }
 
 a.link{

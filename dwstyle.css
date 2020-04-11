@@ -7,7 +7,7 @@
 body, html{
   width: 100%;
   height: 100vh;
-  background: black;
+  background: white;
 }
 
 body{
@@ -181,7 +181,7 @@ display: none;
   font-size: 19px;
   line-height: 26px;
   font-family: 'Open Sans', sans-serif;
-  color: white;
+  color: black;
 	float: left;
 	margin-left: 0;
 	margin-right: 50%;
@@ -192,7 +192,7 @@ display: none;
   font-size: 18px;
   line-height: 26px;
   font-family: 'Open Sans', sans-serif;
-  color: white;
+  color: black;
 }
 
 .wrapper{
@@ -224,7 +224,7 @@ ul li a{
   text-decoration: none;
   font-size: 19px;
   font-family: 'Open Sans', sans-serif;
-  color: white;
+  color: black;
   padding: 0 0;
 }
 
@@ -241,7 +241,7 @@ ul li a:hover{
   padding-bottom:80px;
   float:left;
   width:895px; /* The width is 20%, by default */
-  z-index: 99997;
+    z-index: 99997;
 }
 
 .top {
@@ -250,7 +250,7 @@ ul li a:hover{
   padding-left:25%;
   padding-top:29px;
   float:left;
-  z-index: 99998;
+    z-index: 99998;
 }
 
 @media (max-width: 895px) {
@@ -287,18 +287,18 @@ p1{
   font-size: 21px;
   line-height: 25px;
   font-family: "Times New Roman", Times, serif;
-  color: #c8c8c8;
+  color: black;
 }
 
 h1{
-  font-size: 21px;
-  line-height: 25px;
+  font-size: 29px;
+  line-height: 33px;
   font-family: "Times New Roman", Times, serif;
-  color: white;
+  color: black;
 }
 
 a.link{
-  color: white;
+  color: 313131;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   font-size: 19px;
@@ -312,7 +312,7 @@ a.link:hover{
 }
 
 a.infolink{
-  color: white;
+  color: black;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   font-size: 19px;

@@ -29,48 +29,6 @@ body{
   position: absolute;
 }
 
-.gridd{
-  display: grid;
-  grid-template-columns: 40px 300px 1100px 40px;
-  position: absolute;
-  z-index: 99999;
-  grid-template-areas:
-  ". a d ."
-  ". b e ."
-  ". c f ."
-  ". c g ."
-}
-
-.a{
-grid-area: a;
-}
-.b{
-grid-area: b;
-}
-.c{
-grid-area: c;
-}
-.d{
-grid-area: d;
-}
-.e{
-grid-area: e;
-}
-.f{
-grid-area: f;
-}
-.g{
-grid-area: g;
-}
-
-.gridd div nth-child(even){
-  background-color: red;
-}
-
-.gridd div nth-child(odd){
-  background-color: green;
-}
-
 .slider {
   position: relative;
   z-index：-99999;
@@ -204,7 +162,7 @@ grid-area: g;
     align-self:  end;
     padding-left: 40px;
     padding-bottom: 20px;
-    z-index: 99997;
+    z-index: 99998;
 }
 
 @font-face {
@@ -234,7 +192,7 @@ grid-area: g;
   position: absolute;
   margin: auto auto auto auto;
   width: 100%;
-  z-index: 99998;
+  z-index: 99999;
 }
 
 nav{
@@ -266,3 +224,34 @@ ul li a:hover{
   color: #505050;
 }
 
+.left {
+  position: absolute;
+  background-color:transparent;
+  padding-left:40px;
+  padding-right:40px;
+  padding-top:120px;
+  padding-bottom:80px;
+  float:left;
+  width:55%; /* The width is 20%, by default */
+    z-index: 99997;
+}
+
+@media (max-width: 800px) {
+  .left {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+p1{
+font-size: 18px;
+  line-height: 26px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+h1{
+font-size: 18px;
+  line-height: 26px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}

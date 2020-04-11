@@ -254,6 +254,7 @@ ul li a:hover{
   padding-top:29px;
   float:left;
   z-index: 99998;
+  position: fixed;
 }
 
 @media (max-width: 895px) {

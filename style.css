@@ -168,7 +168,7 @@ display: none;
     justify-self: start;
     align-self:  end;
     padding-left: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 45px;
     z-index: 99998;
 }
 
@@ -189,10 +189,11 @@ display: none;
 }
 
 .clock{
-  font-size: 18px;
+  font-size: 19px;
   line-height: 26px;
   font-family: 'Open Sans', sans-serif;
   color: white;
+  position: fixed;
 }
 
 .wrapper{
@@ -200,6 +201,7 @@ display: none;
   margin: auto auto auto auto;
   width: 227px;
   z-index: 99999;
+  position: fixed;
 }
 
 nav{
@@ -242,6 +244,7 @@ ul li a:hover{
   float:left;
   width:895px; /* The width is 20%, by default */
   z-index: 99997;
+  position: fixed;
 }
 
 .top {
@@ -285,14 +288,14 @@ ul li a:hover{
 
 p1{
   font-size: 21px;
-  line-height: 25px;
+  line-height: 29px;
   font-family: "Times New Roman", Times, serif;
   color: #c8c8c8;
 }
 
 h1{
-  font-size: 21px;
-  line-height: 25px;
+  font-size: 35px;
+  line-height: 43px;
   font-family: "Times New Roman", Times, serif;
   color: white;
 }

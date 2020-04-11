@@ -127,7 +127,7 @@ body{
 /* Backgorund Images */
  
 .slide:first-child {
-  background: url('img/2.mov') no-repeat
+  background: url('img/7.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(2) {
@@ -147,21 +147,30 @@ body{
     center top/cover;
 } 
 .slide:nth-child(6)  {
-  background: url('img/2.jpg') no-repeat
-    center center/cover;
-}
-.slide:nth-child(7)  {
-  background: url('img/3.jpg') no-repeat
-    center center/cover;
-}
-.slide:nth-child(8)  {
   background: url('img/5.jpg') no-repeat
     center center/cover;
 }
+.slide:nth-child(7)  {
+  background: url('img/3.mp4') no-repeat
+    center center/cover;
+}
+.slide:nth-child(8)  {
+  background: url('img/2.jpg') no-repeat
+    center center/cover;
+}
 .slide:nth-child(9)  {
+  background: url('img/3.jpg') no-repeat
+    center center/cover;
+}
+.slide:nth-child(10)  {
   background: url('img/2.mp4') no-repeat
     center center/cover;
 }
+.slide:nth-child(11)  {
+  background: url('img/2.mov') no-repeat
+    center center/cover;
+}
+
 
 .footer{
     grid-area: footer;

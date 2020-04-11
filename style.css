@@ -237,7 +237,7 @@ ul li a:hover{
     z-index: 99997;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .left {
     width:100%; /* The width is 100%, when the viewport is 800px or smaller */
     padding-left:20px;
@@ -251,28 +251,37 @@ ul li a:hover{
   .footer{
     padding-left: 20px;
   }
-p1{
-font-size: 40px;
-  line-height: 26px;
-  font-family: 'Open Sans', sans-serif;
-  color: white;
+  .clock{
+    display: none;
+  }
+  .buttons button#next{
+    right: 30px;
+  }
+  .buttons button#prev{
+    left: 30px;
+  }
 }
 
-.clock{
-display: none;
-}
-}
-
 p1{
-font-size: 18px;
+  font-size: 18px;
   line-height: 26px;
   font-family: 'Open Sans', sans-serif;
   color: white;
 }
 
 h1{
-font-size: 18px;
+  font-size: 18px;
   line-height: 26px;
   font-family: 'Open Sans', sans-serif;
   color: white;
 }
+
+a.link{
+  color: white;
+}
+
+a.link:hover{
+  color: #505050;
+}
+
+

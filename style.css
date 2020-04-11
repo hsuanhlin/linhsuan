@@ -206,7 +206,7 @@ ul{
 }
 
 ul li{
-  padding-top: 30px;
+  padding-top: 0px;
   list-style: none;
   display: inline-block;
   float: left;
@@ -218,7 +218,7 @@ ul li a{
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   color: white;
-  padding: 0 40px;
+  padding: 30px 40px;
 }
 
 ul li a:hover{
@@ -246,7 +246,7 @@ ul li a:hover{
   }
   ul li a{
     padding-left:20px;
-    padding-top:0px;
+    padding-top:20px;
   }
   .footer{
     padding-left: 20px;

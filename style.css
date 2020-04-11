@@ -115,6 +115,7 @@ body{
   .slide.current .content {
     transform: translateY(-300px);
   }
+
 }
 
 /* Backgorund Images */
@@ -255,6 +256,10 @@ font-size: 40px;
   line-height: 26px;
   font-family: 'Open Sans', sans-serif;
   color: white;
+}
+
+.clock{
+display: none;
 }
 }
 

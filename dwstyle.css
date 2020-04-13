@@ -248,7 +248,7 @@ ul li a:hover{
   padding-top:105px;
   padding-bottom:80px;
   float:left;
-  width:905px; /* The width is 20%, by default */
+  width:880px; /* The width is 20%, by default */
   z-index: 99997;
 }
 
@@ -262,7 +262,7 @@ ul li a:hover{
   position: fixed;
 }
 
-@media (max-width: 905px) {
+@media (max-width: 880px) {
   .left {
     width:100%; /* The width is 100%, when the viewport is 800px or smaller */
     padding-left:15px;

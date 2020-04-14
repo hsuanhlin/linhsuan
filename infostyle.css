@@ -4,7 +4,7 @@
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: black;
 }
 
 
@@ -53,7 +53,7 @@
   font-variant: normal; 
   font-weight: 100; 
   line-height: 28px;
-  color: black;
+  color: white;
   background-color: transparent;
 }
 
@@ -61,14 +61,14 @@ p1{
   font-size: 21px;
   line-height: 28px;
   font-family: 'Tinos', serif;
-  color: black;
+  color: #b4b4b4;
 }
 
 p2{
   font-size: 21px;
   line-height: 28px;
   font-family: 'Tinos', serif;
-  color: black;
+  color: white;
   font-style: oblique; 
   font-variant: normal;
 }
@@ -77,7 +77,7 @@ p3{
   font-size: 21px;
   line-height: 28px;
   font-family: 'Tinos', serif;
-  color: white;
+  color: black;
 }
 
 h1{
@@ -85,7 +85,7 @@ h1{
   line-height: 42px;
   font-weight: 700; 
   font-family: 'Tinos', serif;
-  color: black;
+  color: white;
 }
 
 a.link{
@@ -95,7 +95,7 @@ a.link{
   font-variant: normal; 
   font-weight: 100; 
   line-height: 28px;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -117,7 +117,7 @@ a.logolink{
   font-variant: normal; 
   font-weight: 100; 
   line-height: 28px;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 

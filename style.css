@@ -194,12 +194,12 @@ body{
 }
 
 .paragraph{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px; 
+  font-family: 'Karla', sans-serif;
+  font-size: 20px; 
   font-style: normal; 
   font-variant: normal; 
   font-weight: 100; 
-  line-height: 27px;
+  line-height: 28px;
   color: white;
 	float: left;
 	margin-left: 0;
@@ -208,12 +208,12 @@ body{
 }
 
 .clock{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px; 
+  font-family: 'Karla', sans-serif;
+  font-size: 20px; 
   font-style: normal; 
   font-variant: normal; 
   font-weight: 100; 
-  line-height: 27px;
+  line-height: 28px;
   color: white;
   position: fixed;
 }
@@ -236,7 +236,7 @@ ul{
 }
 
 ul li{
-  padding-top: 30px;  
+  padding-top: 25px;  
   padding-left: 40px;
   list-style: none;
   display: inline-block;
@@ -245,12 +245,12 @@ ul li{
 
 ul li a{
   display: block;
-  font-family: Arial, Helvetica, sans-serif; 
-  font-size: 18px; 
+  font-family: 'Karla', sans-serif;
+  font-size: 20px; 
   font-style: normal; 
   font-variant: normal; 
   font-weight: 100; 
-  line-height: 26px;
+  line-height: 28px;
   color: white;
   text-decoration: none;
   padding: 0 0;
@@ -276,7 +276,7 @@ ul li a:hover{
   position: absolute;
   background-color:transparent;
   padding-left:27%;
-  padding-top:28.5px;
+  padding-top:23.5px;
   float:left;
   z-index: 99998;
   position: fixed;
@@ -317,15 +317,15 @@ ul li a:hover{
 
 p1{
   font-size: 21px;
-  line-height: 27px;
-  font-family: "Times New Roman", Times, serif;
+  line-height: 28px;
+  font-family: 'Tinos', serif;
   color: #b4b4b4;
 }
 
 p2{
   font-size: 21px;
-  line-height: 27px;
-  font-family: "Times New Roman", Times, serif;
+  line-height: 28px;
+  font-family: 'Tinos', serif;
   color: #505050;
   font-style: oblique; 
   font-variant: normal;
@@ -333,51 +333,51 @@ p2{
 
 h1{
   font-size: 35px;
-  line-height: 43px;
-  font-family: "Times New Roman", Times, serif;
+  line-height: 42px;
+  font-family: 'Tinos', serif;
   color: #c8c8c8;
 }
 
 a.link{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px; 
+font-family: 'Karla', sans-serif;
+  font-size: 20px; 
   font-style: normal; 
   font-variant: normal; 
   font-weight: 100; 
-  line-height: 27px;
+  line-height: 28px;
   color: white;
   text-decoration: none;
 }
 
 a.link:hover{
-  font-family: Arial, Helvetica, sans-serif; 
-  font-size: 18px; 
+  font-family: 'Karla', sans-serif;
+  font-size: 20px; 
   font-style: normal; 
   font-variant: normal; 
   font-weight: 100; 
-  line-height: 27px;
+  line-height: 28px;
   color: #505050;
   text-decoration: none;
 }
 
 a.infolink{
-  font-family: Arial, Helvetica, sans-serif; 
-  font-size: 18px; 
+  font-family: 'Karla', sans-serif;
+  font-size: 20px; 
   font-style: normal; 
   font-variant: normal; 
   font-weight: 100; 
-  line-height: 27px;
+  line-height: 28px;
   color: white;
   text-decoration: none;
 }
 
 a.infolink:hover{
-  font-family: Arial, Helvetica, sans-serif; 
-  font-size: 18px; 
+  font-family: 'Karla', sans-serif;
+  font-size: 20px; 
   font-style: normal; 
   font-variant: normal; 
   font-weight: 100; 
-  line-height: 27px;
+  line-height: 28px;
   color: #505050;
   text-decoration: none;
 }

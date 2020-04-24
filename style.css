@@ -171,6 +171,10 @@ body{
   background: url('img/13.jpg') no-repeat
     center center/cover;
 }
+.slide:nth-child(14)  {
+  background: url('img/1.mov') no-repeat
+    center center/cover;
+}
 
 .footer{
     grid-area: footer;

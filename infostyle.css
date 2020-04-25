@@ -52,21 +52,21 @@
   font-style: normal; 
   font-variant: normal; 
   font-weight: 100; 
-  line-height: 28px;
+  line-height: 25px;
   color: white;
   background-color: transparent;
 }
 
 p1{
   font-size: 21px;
-  line-height: 28px;
+  line-height: 25px;
   font-family: 'Tinos', serif;
   color: #b4b4b4;
 }
 
 p2{
   font-size: 21px;
-  line-height: 28px;
+  line-height: 25px;
   font-family: 'Tinos', serif;
   color: white;
   font-style: oblique; 
@@ -75,7 +75,7 @@ p2{
 
 p3{
   font-size: 21px;
-  line-height: 28px;
+  line-height: 25px;
   font-family: 'Tinos', serif;
   color: black;
 }
@@ -94,7 +94,7 @@ a.link{
   font-style: normal; 
   font-variant: normal; 
   font-weight: 100; 
-  line-height: 28px;
+  line-height: 25px;
   color: white;
   text-decoration: none;
 }
@@ -105,7 +105,7 @@ a.link:hover{
   font-style: normal; 
   font-variant: normal; 
   font-weight: 100; 
-  line-height: 28px;
+  line-height: 25px;
   color: #505050;
   text-decoration: none;
 }

@@ -156,7 +156,7 @@ body{
     center center/cover;
 }
 .slide:nth-child(10)  {
-  background: url('img/4.jpg') no-repeat
+  background: url('img/4.mov') no-repeat
     center center/cover;
 }
 .slide:nth-child(11)  {
@@ -183,10 +183,7 @@ body{
   background: url('img/4.mp4') no-repeat
     center center/cover;
 }
-.slide:nth-child(17)  {
-  background: url('img/38.jpg') no-repeat
-    center center/cover;
-}
+
 
 .footer{
     grid-area: footer;
@@ -370,6 +367,40 @@ a.infolink:hover{
   line-height: 28px;
   color: #505050;
   text-decoration: none;
+}
+
+a.processlink{
+  font-family: 'Karla', sans-serif;
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 100; 
+  line-height: 28px;
+  color: white;
+  text-decoration: none;
+	float: left;
+	margin-left: 0;
+	margin-right: 50%;
+	margin-bottom: 14px;
+  position: relative;
+  z-index: 999999;
+}
+
+a.processlink:hover{
+  font-family: 'Karla', sans-serif;
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 100; 
+  line-height: 28px;
+  color: #505050;
+  text-decoration: none;
+	float: left;
+	margin-left: 0;
+	margin-right: 50%;
+	margin-bottom: 14px;
+  position: relative;
+  z-index: 999999;
 }
 
 

@@ -369,6 +369,28 @@ a.infolink:hover{
   text-decoration: none;
 }
 
+a.logolink{
+  font-family: 'Karla', sans-serif;
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 100; 
+  line-height: 28px;
+  color: white;
+  text-decoration: none;
+}
+
+a.logolink:hover{
+  font-family: 'Karla', sans-serif;
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 100; 
+  line-height: 28px;
+  color: #505050;
+  text-decoration: none;
+}
+
 a.processlink{
   font-family: 'Karla', sans-serif;
   font-size: 20px; 

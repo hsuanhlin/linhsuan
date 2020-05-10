@@ -160,26 +160,30 @@ body{
     center center/cover;
 }
 .slide:nth-child(11)  {
-  background: url('img/6.mp4') no-repeat
+  background: url('img/9.mp4') no-repeat
     center center/cover;
 }
 .slide:nth-child(12)  {
-  background: url('img/9.jpg') no-repeat
+  background: url('img/6.mp4') no-repeat
     center center/cover;
 }
 .slide:nth-child(13)  {
-  background: url('img/10.jpg') no-repeat
+  background: url('img/9.jpg') no-repeat
     center center/cover;
 }
 .slide:nth-child(14)  {
-  background: url('img/13.jpg') no-repeat
+  background: url('img/10.jpg') no-repeat
     center center/cover;
 }
 .slide:nth-child(15)  {
-  background: url('img/1.mov') no-repeat
+  background: url('img/13.jpg') no-repeat
     center center/cover;
 }
 .slide:nth-child(16)  {
+  background: url('img/1.mov') no-repeat
+    center center/cover;
+}
+.slide:nth-child(17)  {
   background: url('img/4.mp4') no-repeat
     center center/cover;
 }

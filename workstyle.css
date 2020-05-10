@@ -7,7 +7,7 @@
 body, html{
   width: 100%;
   height: 100vh;
-  background: black;
+  background: white;
 }
 
 body{
@@ -65,7 +65,7 @@ body{
   font-variant: normal; 
   font-weight: 100; 
   line-height: 28px;
-  color: white;
+  color: black;
   position: fixed;
 }
 
@@ -100,7 +100,7 @@ ul li a{
   font-variant: normal; 
   font-weight: 100; 
   line-height: 28px;
-  color: white;
+  color: black;
   text-decoration: none;
   padding: 0 0;
 }
@@ -174,7 +174,7 @@ p3{
   font-size: 21px;
   line-height: 28px;
   font-family: 'Tinos', serif;
-  color: black;
+  color: white;
 }
 
 h1{
@@ -191,7 +191,7 @@ font-family: 'Karla', sans-serif;
   font-variant: normal; 
   font-weight: 100; 
   line-height: 28px;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -213,7 +213,7 @@ a.infolink{
   font-variant: normal; 
   font-weight: 100; 
   line-height: 28px;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -235,7 +235,7 @@ a.logolink{
   font-variant: normal; 
   font-weight: 100; 
   line-height: 28px;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -257,7 +257,7 @@ a.thumblink{
   font-variant: normal; 
   font-weight: 100; 
   line-height: 28px;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -268,7 +268,7 @@ a.thumblink:hover{
   font-variant: normal; 
   font-weight: 100; 
   line-height: 28px;
-  color: white;
+  color: black;
   text-decoration: underline;
 }
 
@@ -279,7 +279,7 @@ a.pagelink{
   font-variant: normal; 
   font-weight: 100; 
   line-height: 28px;
-  color: white;
+  color: black;
   text-decoration: underline;
 }
 
@@ -290,7 +290,7 @@ a.pagelink:hover{
   font-variant: normal; 
   font-weight: 100; 
   line-height: 28px;
-  color: white;
+  color: black;
   text-decoration: underline;
 }
 

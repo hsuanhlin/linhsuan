@@ -6,7 +6,7 @@
 .site{
 display: grid;
 grid-template-columns: auto auto auto auto;
-grid-template-rows: auto auto auto auto;
+grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
 grid-template-areas:
 "index-title index-title index-title index-title"
 "index-work index-work index-work index-work"
@@ -15,7 +15,9 @@ grid-template-areas:
 "index-thumbnail1 index-thumbnail1 index-thumbnail1 index-thumbnail1"
 "index-thumbnail2 index-thumbnail2 index-thumbnail2 index-thumbnail2"
 "index-thumbnail3 index-thumbnail3 index-thumbnail3 index-thumbnail3"
-"index-thumbnail4 index-thumbnail4 index-thumbnail4 index-thumbnail4";
+"index-thumbnail5 index-thumbnail5 index-thumbnail5 index-thumbnail5"
+"index-thumbnail6 index-thumbnail6 index-thumbnail6 index-thumbnail6"
+"index-thumbnail7 index-thumbnail7 index-thumbnail7 index-thumbnail7";
 margin-top: 15px;
 margin-left: 0px;
 margin-right: 0px;
@@ -69,11 +71,24 @@ margin-top: 15px;
 margin-bottom: 75px;
 }
 
-.thumbnail4{
-grid-area: index-thumbnail4;
+.thumbnail5{
+grid-area: index-thumbnail5;
+margin-left: 15px;
+margin-right: 15px;
+}
+
+.thumbnail6{
+grid-area: index-thumbnail6;
+margin-left: 15px;
+margin-right: 15px;
 margin-bottom: 28px;
 }
 
+.thumbnail7{
+grid-area: index-thumbnail7;
+margin-top: -3px;
+margin-bottom: 28px;
+}
 
 
 .green{
@@ -132,7 +147,12 @@ height: 100%;
 
 }
 
+.heather{
+background-color: white;
+width: 100%;
+height: 100%;
 
+}
 
 
 @media screen and (min-width: 736px){
@@ -140,12 +160,14 @@ height: 100%;
 .site{
 display: grid;
 grid-template-columns: 6.5% 1fr 1fr 1fr 1fr 1fr 1fr 6.5%;
-grid-template-rows: 17px auto auto;
+grid-template-rows: 17px auto 1fr auto auto;
 grid-template-areas:
 "index-work index-title index-title index-title index-title index-title index-title index-about"
 ". index-slide index-slide index-slide index-slide index-slide index-slide ."
 ". index-thumbnail1 index-thumbnail1 index-thumbnail2 index-thumbnail2 index-thumbnail3 index-thumbnail3 ."
-". index-thumbnail4 index-thumbnail4 index-thumbnail4 index-thumbnail4 index-thumbnail4 index-thumbnail4 .";
+". index-thumbnail4 index-thumbnail4 index-thumbnail4 index-thumbnail4 index-thumbnail4 index-thumbnail4 ."
+". index-thumbnail5 index-thumbnail5 index-thumbnail5 index-thumbnail6 index-thumbnail6 index-thumbnail6 ."
+". index-thumbnail7 index-thumbnail7 index-thumbnail7 index-thumbnail7 index-thumbnail7 index-thumbnail7 .";
 
 margin-top: 28px;
 margin-left: 28px;
@@ -199,8 +221,22 @@ margin-top: 0px;
 margin-bottom: 0px;
 }
 
-.thumbnail4{
-grid-area: index-thumbnail4;
+.thumbnail5{
+grid-area: index-thumbnail5;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+.thumbnail6{
+grid-area: index-thumbnail6;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+
+.thumbnail7{
+grid-area: index-thumbnail7;
+margin-top: 0px;
 margin-bottom: 0px;
 }
 

@@ -41,12 +41,12 @@ grid-area: index-slide;
 
 .thumbnail1{
 grid-area: index-thumbnail1;
-margin-bottom: 30px;
+margin-bottom: 38px;
 }
 
 .thumbnail2{
 grid-area: index-thumbnail2;
-margin-bottom: 18px;
+margin-bottom: 19px;
 }
 
 .green{

@@ -1,6 +1,7 @@
 *{
 	margin: 0px;
-	padding: 0px;
+  padding: 0px;
+  background-color: #F0FD37;
 }
 
 .site{
@@ -82,54 +83,54 @@ margin-bottom: 60px;
 
 
 .green{
-background-color: white;
+background-color: #F0FD37;
 width: 100%;
 height: 100%;
 }
 
 .red{
-background-color: white;
+background-color: #F0FD37;
 width: 100%;
 height: 100%;
 }
 
 .blue{
-background-color: white;
+background-color: #F0FD37;
 width: 100%;
 height: 100%;
 
 }
 
 .purple{
-background-color: white;
+background-color: #F0FD37;
 width: 100%;
 height: 100%;
 
 }
 
 .yellow{
-background-color: white;
+background-color: #F0FD37;
 width: 100%;
 height: 100%;
 
 }
 
 .orange{
-background-color: white;
+background-color: #F0FD37;
 width: 100%;
 height: 100%;
 text-align: right;
 }
 
 .black{
-background-color: white;
+background-color: #F0FD37;
 width: 100%;
 height: 100%;
 text-align: left;
 }
 
 .chrome{
-background-color: white;
+background-color: #F0FD37;
 width: 100%;
 height: 100%;
 text-align: left;
@@ -212,28 +213,28 @@ margin-bottom: 100px;
 
 
 .green{
-background-color: white;
+background-color: #F0FD37;
 width: 100%;
 height: 100%;
 text-align: center;
 }
 
 .blue{
-background-color: white;
+background-color: #F0FD37;
 width: 100%;
 height: 100%;
 text-align: center;
 }
 
 .orange{
-  background-color: white;
+  background-color: #F0FD37;
   width: 100%;
   height: 100%;
   text-align: right;
   }
   
   .black{
-  background-color: white;
+  background-color: #F0FD37;
   width: 100%;
   height: 100%;
   text-align: left;
@@ -297,13 +298,12 @@ line-height: 19px;
 
 p7{
   font-family: 'Karla', sans-serif;
-  font-size: 30px; 
+  font-size: 66px; 
   color: black;
   background-color: #F0FD37;
-font-weight: 400;
-line-height: 40px;
+font-weight: 700;
+line-height: 70px;
 }
-
 
 
 a.link{

@@ -145,8 +145,8 @@ grid-template-columns: 6.5% 1fr 1fr 1fr 1fr 1fr 1fr 6.5%;
 grid-template-rows: 17px auto 1fr auto auto;
 grid-template-areas:
 "index-work index-title index-title index-title index-title index-title index-title index-about"
-". . index-slide index-slide index-slide index-thumbnail2 index-thumbnail2 ."
-". index-thumbnail1 index-thumbnail4 index-thumbnail4 index-thumbnail4 index-thumbnail4 . ."
+". index-slide index-slide index-slide index-slide index-thumbnail2 index-thumbnail2 ."
+". index-thumbnail4 index-thumbnail4 index-thumbnail4 index-thumbnail4 index-thumbnail4 index-thumbnail4 ."
 ". index-thumbnail3 index-thumbnail3 index-thumbnail3 index-thumbnail3 index-thumbnail3 index-thumbnail3 .";
 
 margin-top: 28px;
@@ -193,7 +193,7 @@ margin-right: 0px;
 grid-area: index-thumbnail2;
 margin-left: 0px;
 margin-right: 0px;
-margin-bottom: 60px;
+margin-bottom: 0px;
 }
 
 .thumbnail3{
@@ -299,8 +299,8 @@ p7{
   font-family: 'Karla', sans-serif;
   font-size: 30px; 
   color: black;
-  background-color: #F0FD37;
-font-weight: 400;
+  background-color: white;
+font-weight: 700;
 line-height: 40px;
 }
 

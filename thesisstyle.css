@@ -145,7 +145,7 @@ grid-template-columns: 6.5% 1fr 1fr 1fr 1fr 1fr 1fr 6.5%;
 grid-template-rows: 17px auto 1fr auto auto;
 grid-template-areas:
 "index-work index-title index-title index-title index-title index-title index-title index-about"
-". index-slide index-slide index-slide index-slide index-thumbnail2 index-thumbnail2 ."
+". index-slide index-slide index-slide index-thumbnail2 index-thumbnail2 index-thumbnail2 ."
 ". index-thumbnail4 index-thumbnail4 index-thumbnail4 index-thumbnail4 index-thumbnail4 index-thumbnail4 ."
 ". index-thumbnail3 index-thumbnail3 index-thumbnail3 index-thumbnail3 index-thumbnail3 index-thumbnail3 .";
 

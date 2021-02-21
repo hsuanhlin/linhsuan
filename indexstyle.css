@@ -11,7 +11,6 @@ grid-template-areas:
 "index-title index-title index-title index-title"
 "index-work index-work index-work index-work"
 "index-about index-about index-about index-about"
-"index-slide index-slide index-slide index-slide"
 "index-thumbnail1 index-thumbnail1 index-thumbnail1 index-thumbnail1"
 "index-thumbnail2 index-thumbnail2 index-thumbnail2 index-thumbnail2";
 margin-top: 15px;
@@ -40,11 +39,6 @@ grid-area: index-about;
 margin-left: 15px;
 margin-right: 15px;
 margin-bottom: 20px;
-}
-
-.slide{
-grid-area: index-slide;
-margin-bottom: 25px;
 }
 
 .thumbnail1{
@@ -76,13 +70,6 @@ height: 100%;
 
 }
 
-.purple{
-background-color: white;
-width: 100%;
-height: 100%;
-
-}
-
 .yellow{
 background-color: white;
 width: 100%;
@@ -97,15 +84,14 @@ height: 100%;
 
 }
 
-@media screen and (min-width: 736px){
+@media screen and (min-width: 1866px){
 
 .site{
 display: grid;
-grid-template-columns: 6.5% 1fr 1fr 6.5%;
-grid-template-rows: 17px auto 1fr;
+grid-template-columns: 1fr 675px 675px 1fr;
+grid-template-rows: 17px 1fr;
 grid-template-areas:
 "index-work index-title index-title index-about"
-". index-slide index-slide ."
 ". index-thumbnail1 index-thumbnail2 .";
 margin-top: 28px;
 margin-left: 28px;
@@ -134,11 +120,6 @@ margin-right: 0px;
 margin-bottom: 0px;
 }
 
-.slide{
-grid-area: index-slide;
-margin-bottom: 0px;
-}
-
 .green{
 background-color: white;
 width: 100%;
@@ -155,6 +136,59 @@ text-align: center;
 
 
 }
+
+@media screen and (min-width: 767px) and (max-width: 1865px){
+
+  .site{
+  display: grid;
+  grid-template-columns: 7.5% 1fr 1fr 7.5%;
+  grid-template-rows: 17px 1fr;
+  grid-template-areas:
+  "index-work index-title index-title index-about"
+  ". index-thumbnail1 index-thumbnail2 .";
+  margin-top: 28px;
+  margin-left: 28px;
+  margin-right: 28px;
+  margin-bottom: -3px;
+  grid-gap: 28px;
+  }
+  
+  .work{
+  grid-area: index-work;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  }
+  
+  .title{
+  grid-area: index-title;
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+  
+  .about{
+  grid-area: index-about;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  }
+  
+  .green{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  }
+  
+  .blue{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  }
+  
+  
+  }
 
 
 p1{
